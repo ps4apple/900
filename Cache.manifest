@@ -1,6 +1,6 @@
-CACHE MANIFEST 
+CACHE MANIFEST
 
-CACHE: 
+CACHE:
 app2usb.bin
 CopyCH.bin
 disableupdates.bin
@@ -18,8 +18,3 @@ ps4debug.bin
 todex-enable.bin
 todex-disable.bin
 WebRTE.bin
-
-NETWORK: 
-* 
-
-# Date: 2022-03-28T14:59:00Z:
