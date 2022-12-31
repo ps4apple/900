@@ -189,7 +189,7 @@ opacity:0.7;
 
     </style>
 <meta charset="utf-8">
-<title>[-PS4 APPLE 9.00v3-]</title>
+<title>[-PS4 APPLE 9.00v4-]</title>
 		<script>
 			window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="캐쉬를 시작합니다~!!";};
 			window.applicationCache.onprogress=function(a){document.getElementById("progress").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
@@ -240,7 +240,7 @@ window.progress.innerHTML="Payload Loaded. Send payloads to port 9021";
 alert("Payload Loaded. Send payloads to port 9021");
 }
 
-function goldhen212(){
+function goldhen1(){
     progress.innerHTML="탈옥_Goldhen 2.1.2 로딩중... 기다려주세요";
     LoadedMSG="GoldHEN 2.1.2 Loaded";
     PLfile = "goldhen_212_900.bin";
@@ -248,10 +248,10 @@ function goldhen212(){
     load_poc();
 }
 
-function goldhen225(){
-    progress.innerHTML="탈옥_Goldhen 2.2.5b7 로딩중... 기다려주세요";
-    LoadedMSG="GoldHEN 2.2.5b7 Loaded";
-    PLfile = "goldhen_225b7_900.bin";
+function goldhen2(){
+    progress.innerHTML="탈옥_Goldhen 2.3 로딩중... 기다려주세요";
+    LoadedMSG="GoldHEN 2.3 Loaded";
+    PLfile = "goldhen_23_900.bin";
     out_jb = "AllPL";
     load_poc();
 }
@@ -360,12 +360,12 @@ function load_copych(){
 </script>
 </head>
 <body onload="if(localStorage.cachedL=='yes')setTimeout(poc,50);" style='background-color:#1A1920'>
-<h1 style='text-shadow: 4px 4px 4px black;font-size:30px;text-align:center;text-shadow: 4px 4px 4px black;color:red;margin-top:1%;'>PS4 APPLE 9.00v3 - GoldHEN2.2.5b7</h1>
+<h1 style='text-shadow: 4px 4px 4px black;font-size:30px;text-align:center;text-shadow: 4px 4px 4px black;color:red;margin-top:1%;'>PS4 APPLE 9.00v4 - GoldHEN 2.3</h1>
 <h1 id=progress style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>탈옥중입니다... 기다려주세요</h1>
 <br>
 <div id=all style="text-align:center;display:none">
-<button id="button-Payload" onMouseOver="progress.innerHTML='GoldHen v2.1.2'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="goldhen212()" style='font-size:26px;text-align:center;text-shadow: 4px 4px 4px black;width: 220px;height: 60px;color:#CEC52A' > 골드헨 V2.1.2 </button>
-<button id="button-Payload" onMouseOver="progress.innerHTML='GoldHen v2.2.5b7'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="goldhen225()" style='font-size:26px;text-align:center;text-shadow: 4px 4px 4px black;width: 220px;height: 60px;color:#CC2EFA' > 골드헨 V2.2.5b7 </button>
+<button id="button-Payload" onMouseOver="progress.innerHTML='GoldHen v2.1.2'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="goldhen1()" style='font-size:26px;text-align:center;text-shadow: 4px 4px 4px black;width: 220px;height: 60px;color:#CEC52A' > 골드헨 V2.1.2 </button>
+<button id="button-Payload" onMouseOver="progress.innerHTML='GoldHen v2.3'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="goldhen2()" style='font-size:26px;text-align:center;text-shadow: 4px 4px 4px black;width: 220px;height: 60px;color:#CC2EFA' > 골드헨 V2.3 </button>
 <button id="button-Payload" onMouseOver="progress.innerHTML='Copy json and shn files from USB to PS4'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="load_copych()" style='font-size:26px;text-align:center;text-shadow: 4px 4px 4px black;width: 220px;height: 60px;color:white' > Cheat Copy </button>
 <br><br>
 <button id="button-Payload" onMouseOver="progress.innerHTML='WebRTE for PS4 9.00 fw'"; onmouseout="progress.innerHTML='Status'" type="button" onclick="load_WebRTE()" style='font-size:23px;text-align:center;text-shadow: 4px 4px 4px black;background-color:blue;color:white' > WebRTE </button>
